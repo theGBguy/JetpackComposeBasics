@@ -67,7 +67,7 @@ fun Counter(count: Int, updateCount: (Int) -> Unit) {
             backgroundColor = if (count > 5) MaterialTheme.colors.primary else MaterialTheme.colors.secondary
         )
     ) {
-        Text(text = "I have been clicked ${count} times")
+        Text(text = "I have been clicked $count times")
     }
 }
 
