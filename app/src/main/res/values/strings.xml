@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ComposeTestApp</string>
+    <string name="title_activity_custom">CustomActivity</string>
 </resources>
